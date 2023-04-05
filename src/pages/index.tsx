@@ -14,8 +14,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <main className="bg-bx-base">
+        <h1 className="text-3xl font-bold underline text-bx-text">
+          Hello world!
+        </h1>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;

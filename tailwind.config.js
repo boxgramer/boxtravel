@@ -9,7 +9,16 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "bx-text": "#E5DBC7",
+        "bx-button": "#BBAB49",
+        "bx-card": "#314526",
+        "bx-disable": "#5E603E",
+        "bx-active": "#868258",
+        "bx-base": "#22301B",
+      },
+    },
   },
   plugins: [],
 };
